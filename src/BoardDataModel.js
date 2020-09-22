@@ -6,8 +6,4 @@ class BoardDataModel {
        this.boardSize = boardSize;
        this.dateStart = dateStart;
     }
-
-    static fromJson(dataStr){
-        return JSON.parse(dataStr);
-    }
 }
