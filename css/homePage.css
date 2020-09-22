@@ -1,0 +1,70 @@
+.MainBody {
+    text-align: center;
+    
+}
+body{
+    background-color: #DCDCDC;
+}
+
+
+.box{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom-width: 15px;
+    padding-left: 15px;
+}
+
+#board {
+    background-color:#1a6600;
+}
+
+.menuUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .menu {
+    float: right;
+  }
+
+  .menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
+#timer #minutes{
+    font-size: 5rem;
+
+}
+
+#timer #seconds{
+    font-size: 5rem;
+
+}
+
+#timer #mark{
+    font-size: 5rem;
+
+}
+
+#playerName , #numberRows{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+
+
+  
