@@ -274,9 +274,13 @@ function closeGame(){
     currentPlayer.longGameTime = timeStr
     addPlayerDetails(currentPlayer)
     resultGameDiv.innerHTML = `<h1>${currentPlayer.playerName} Win the game</h1>`
+    var timer = document.getElementById("timer");
+    timer.innerHTML = ""
 }
 
 function startTimer(){
+    var timer = document.getElementById("timer");
+    timer.innerHTML = '<label id="minutes">00</label><label id="mark">:</label><label id="seconds">00</label>'
     var minutesLabel = document.getElementById("minutes");
     var secondsLabel = document.getElementById("seconds");
     var totalSeconds = 0;
